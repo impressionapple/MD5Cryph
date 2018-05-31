@@ -7,7 +7,7 @@
 //
 
 #import "MD5Crypt.h"
-
+//0.0.2 赛雷最牛逼
 @implementation MD5Crypt
 +(NSString *)MD5:(NSString *)text
 {
