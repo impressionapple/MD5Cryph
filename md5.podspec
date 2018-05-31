@@ -10,5 +10,6 @@ s.source       = { :git => "https://github.com/impressionapple/MD5Cryph.git", :t
 
 s.ios.deployment_target = '8.0'
 s.source_files = 'md5/*.{h,m}'
+s.xcconfig = {"HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto"}
 
 end
