@@ -16,7 +16,8 @@
 
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
-        self = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil].lastObject;
+         NSBundle *xibBundle = [NSBundle bundleForClass:[self class]]
+        self = [xibBundle loadNibNamed:@"testView" owner:self options:nil].lastObject;
     }
     return self;
 }
