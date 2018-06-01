@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -22,13 +20,12 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cEs-Af-wx4" secondAttribute="trailing" id="DbU-8g-e6N"/>
-                <constraint firstItem="cEs-Af-wx4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bEe-CI-SPh"/>
-                <constraint firstItem="cEs-Af-wx4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ijA-v5-pYt"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cEs-Af-wx4" secondAttribute="bottom" id="nvs-pL-ffD"/>
+                <constraint firstAttribute="trailing" secondItem="cEs-Af-wx4" secondAttribute="trailing" id="DbU-8g-e6N"/>
+                <constraint firstItem="cEs-Af-wx4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bEe-CI-SPh"/>
+                <constraint firstItem="cEs-Af-wx4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ijA-v5-pYt"/>
+                <constraint firstAttribute="bottom" secondItem="cEs-Af-wx4" secondAttribute="bottom" id="nvs-pL-ffD"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="3.5" y="-225"/>
         </view>
     </objects>
