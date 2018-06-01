@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "md5"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "赛雷测试"
 s.description  = "赛雷代码测试"
 s.homepage     = "https://github.com/impressionapple/MD5Cryph.git"
